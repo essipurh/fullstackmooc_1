@@ -1,4 +1,4 @@
-const Header = ({ course }) => (<h1>{course}</h1>)
+const Header = ({ course }) => <h1>{course}</h1>
 const Content = ({ content }) => {
   return (
     <>
@@ -8,8 +8,8 @@ const Content = ({ content }) => {
     </>
   )
 }
-const Part = ({ title, nro_exercises }) => (<p>{title} {nro_exercises}</p>)
-const Total = ({ sum }) => (<p>Number of exercises {sum}</p>)
+const Part = ({ title, nro_exercises }) => <p>{title} {nro_exercises}</p>
+const Total = ({ sum }) => <p>Number of exercises {sum}</p>
 
 const App = () => {
   const course = {
